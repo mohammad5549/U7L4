@@ -334,7 +334,7 @@ public class ArrayListAlgorithms {
         for (int i = 0; i < numList.length; i++)
         {
             int a = 0;
-            for (int x = 0; x < numList.length; x++)
+            for (int x = i; x < numList.length; x++)
             {
                 if (numList[i] == numList[x])
                 {
